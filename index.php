@@ -94,6 +94,8 @@
 	<button type="submit" name="login">Login</button><br><br>
 	<p><input type="checkbox" name="remember" checked="checked"> Remember me</p><br>
    <p> got account ?  <a href="signupForm.php">Sign Up</a> </p>
+      <p> forgot ?  <a href="emailssss.php">update</a> </p>
+
 </form>
 </body>
 </html>

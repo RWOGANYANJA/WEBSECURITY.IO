@@ -88,17 +88,13 @@
 }
 </style>
 
-<form action="signupForms.php" method="POST" class="form
+<form action="remember.php" method="POST" class="form
 ">
-<h2>Create your account now</h2>
-	<input type="text" name="fname" required="required" placeholder="First name"><br><br>
-	<input type="text" name="lname" required="required" placeholder="Last name"><br><br>
-	<input type="email" name="email" required="required" placeholder="Email"><br><br>
-	<input type="text" name="uname" required="required" placeholder="Username"><br><br>
-	<input type="password" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 10 or more characters" name="psw" required placeholder="Password"><br><br>
+<h2>enter your email</h2>
+	
+	<input type="email" name="email" required="required" placeholder="Username"><br><br>
+	
 	<button type="submit" name="signup">SignUp</button><br><br>
-   <p> got an account already?  <a href="adminLogin.php">Log in</a> </p>
-   
 
 </form>
 </body>
